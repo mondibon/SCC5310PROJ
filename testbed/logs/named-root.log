@@ -80,6 +80,7 @@
 24-Nov-2026 23:40:59.185 general: info: configuring command channel from '/etc/bind/rndc.key'
 24-Nov-2026 23:40:59.185 config: error: open: /etc/bind/rndc.key: permission denied
 24-Nov-2026 23:40:59.185 general: notice: command channel listening on 127.0.0.1#953
+<<<<<<< HEAD
 25-Nov-2026 18:35:21.380 general: notice: starting BIND 9.18.49-1~deb12u3-Debian (Extended Support Version) <id:>
 25-Nov-2026 18:35:21.380 general: notice: running on Linux x86_64 7.0.0-43-generic #43~24.04.1-Ubuntu SMP PREEMPT_DYNAMIC Sat Oct 31 06:52:47 UTC 2
 25-Nov-2026 18:35:21.380 general: notice: built with  '--build=x86_64-linux-gnu' '--prefix=/usr' '--includedir=${prefix}/include' '--mandir=${prefix}/share/man' '--infodir=${prefix}/share/info' '--sysconfdir=/etc' '--localstatedir=/var' '--disable-option-checking' '--disable-silent-rules' '--libdir=${prefix}/lib/x86_64-linux-gnu' '--runstatedir=/run' '--disable-maintainer-mode' '--disable-dependency-tracking' '--libdir=/usr/lib/x86_64-linux-gnu' '--sysconfdir=/etc/bind' '--with-python=python3' '--localstatedir=/' '--enable-threads' '--enable-largefile' '--with-libtool' '--enable-shared' '--disable-static' '--with-gost=no' '--with-openssl=/usr' '--with-gssapi=yes' '--with-libidn2' '--with-json-c' '--with-lmdb=/usr' '--with-gnu-ld' '--with-maxminddb' '--with-atf=no' '--enable-ipv6' '--enable-rrl' '--enable-filter-aaaa' '--disable-native-pkcs11' '--enable-dnstap' 'build_alias=x86_64-linux-gnu' 'CFLAGS=-g -O2 -ffile-prefix-map=/build/reproducible-path/bind9-9.18.49=. -fstack-protector-strong -Wformat -Werror=format-security -fno-strict-aliasing -fno-delete-null-pointer-checks -DNO_VERSION_DATE -DDIG_SIGCHASE' 'LDFLAGS=-Wl,-z,relro -Wl,-z,now' 'CPPFLAGS=-Wdate-time -D_FORTIFY_SOURCE=2'
@@ -285,3 +286,5 @@
 25-Nov-2026 20:10:54.197 general: info: configuring command channel from '/etc/bind/rndc.key'
 25-Nov-2026 20:10:54.197 config: error: open: /etc/bind/rndc.key: permission denied
 25-Nov-2026 20:10:54.198 general: notice: command channel listening on 127.0.0.1#953
+=======
+>>>>>>> 1ef91d89297136eb30141ebabb949315bd41b7bb
